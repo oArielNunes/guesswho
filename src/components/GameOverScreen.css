@@ -1,0 +1,42 @@
+.start h1{
+    position: relative;
+    text-transform: uppercase;
+    font-size: 3em;
+    top: 30vh;
+    color: #C89B3C;
+    text-shadow: 8px 6px 5px #010A13;
+}
+
+.start button {
+    font-family: Beaufort;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    height: 80px;
+    width: 200px;
+    font-size: 1.5em;
+    top: 38vh;
+    background: transparent;
+    border: 2px solid #F0E6D2;
+    outline: none;
+    border-radius: 15px;
+    font-weight: light;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    color: #F0E6D2;
+    box-shadow: 18px 18px 1px #010A13;
+    transition: .7s;
+}
+.reestart button{
+    letter-spacing: 9px;
+    top: 27vh;
+}
+.reestart p {
+    top: 22vh;
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+.reestart h1{
+    top: 20vh;
+    font-size: 4.5em;
+}

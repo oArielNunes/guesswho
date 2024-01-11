@@ -1,0 +1,32 @@
+@font-face {
+  font-family: Beaufort;
+  src: url(./assets/BeaufortForLoL-OTF/BeaufortforLOL-Regular.otf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Beaufort;
+  src: url(./assets/BeaufortForLoL-OTF/BeaufortforLOL-Bold.otf);
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Beaufort;
+  src: url(./assets/BeaufortForLoL-OTF/BeaufortforLOL-Italic.otf);
+  font-style: italic;
+  font-weight: normal;
+}
+
+#body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: Beaufort;
+}

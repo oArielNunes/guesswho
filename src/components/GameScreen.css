@@ -1,0 +1,178 @@
+.game{
+    position: relative;
+    margin: 0 auto;
+}
+.game h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #C89B3C;
+    text-shadow: 8px 6px 5px #010A13;
+}
+.chance {
+    font-size: .8em;
+    text-transform: uppercase;
+    color: #F0E6D2;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-shadow: 8px 6px 5px #010A13;
+    text-align: right;
+    max-width: 95vw;
+}
+
+.points{
+    width: 100vw;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 6vw;
+    font-size: 1.5em;
+    color: #C8AA6E;
+    text-shadow: 4px 6px 5px #010A13;
+}
+.points span {
+    font-weight: bold;
+}
+
+.dica {
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #F0E6D2;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-shadow: 8px 6px 5px #010A13;
+}
+.dica span {
+    color:#C8AA6E;
+    text-transform: uppercase;
+}
+
+.wordContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1.5em;
+    padding: 1.5em;
+    border: solid 3px #C8AA6E;
+    width: 80vw;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: #010A13;
+}
+.letter, .blankSquare {
+    font-size: 4em;
+    line-height: 1.5;
+    border: 3px solid #F0E6D2;
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #C8AA6E;
+    margin-left: 2px;
+}
+
+.letterContainer p {
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 4px 6px 5px #010A13;
+    color:#F0E6D2
+}
+
+.letterContainer form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letterContainer input {
+    font-size: 3em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
+    background: #010A13;
+    border: 1px solid #F0E6D2;
+    border-radius: 8px;
+    outline: none;
+    color: #C8AA6E;
+    font-family: Beaufort;
+    font-weight: bold;
+    margin-right: 2em;
+    text-transform: uppercase;
+}
+
+.letterContainer button {
+    font-family: Beaufort;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    height: 80px;
+    width: 200px;
+    font-size: 1.5em;
+    background: transparent;
+    border: 2px solid #F0E6D2;
+    outline: none;
+    border-radius: 15px;
+    font-weight: light;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    color: #F0E6D2;
+    box-shadow: 18px 18px 1px #010A13;
+    transition: .7s;
+}
+
+
+.start button {
+    font-family: Beaufort;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    height: 80px;
+    width: 200px;
+    font-size: 1.5em;
+    background: transparent;
+    border: 2px solid #F0E6D2;
+    outline: none;
+    border-radius: 15px;
+    font-weight: light;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    color: #F0E6D2;
+    box-shadow: 18px 18px 1px #010A13;
+    transition: .7s;
+}
+
+.letterContainer button:hover{
+    box-shadow:none;
+    border-color: #C8AA6E;
+    color: #C8AA6E;
+    font-size: 1.7em;
+}
+
+.wrongLettersContainer p {
+    margin-top: 2em;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 4px 6px 5px #010A13;
+    color:#F0E6D2
+}
+
+.wrongLettersContainer span {
+    font-size: 2em;
+    line-height: 1.5;
+    border: 3px solid #F0E6D2;
+    border-radius: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #C8AA6E;
+    margin-left: 10px;
+    padding: 10px 18px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
